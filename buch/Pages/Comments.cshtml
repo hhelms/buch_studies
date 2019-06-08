@@ -1,0 +1,21 @@
+﻿@page
+@model buch.Pages.CommentsModel
+@{
+    ViewData["Title"] = "Comments";
+}
+<body>
+        <script type="text/javascript" charset="utf-8" src="~/js/comment.js"></script>
+    <h2>Comments</h2>
+    <label>Name:</label>
+    <br />
+    <input id="inputname"/>
+    <br />
+    <label>Comment</label>
+    <br />
+    <textarea id="commenttext"></textarea>
+    <br />
+    <button onclick="myFunction()">Submit Comment</button>
+    <br />
+    <textarea id="postedcomments" style="width:200px;height:auto"></textarea>
+    <br />
+    </body>

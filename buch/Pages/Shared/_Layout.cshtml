@@ -26,14 +26,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">buch</a>
+                @* <a asp-page="/Index" class="navbar-brand">buch</a>*@
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Home</a></li>
-                    <li><a asp-page="/About">About</a></li>
-                    <li><a asp-page="/Contact">Contact</a></li>
-                </ul>
+            @*<div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a asp-page="/index">home page</a></li>
+                <li><a asp-page="/about">about</a></li>
+                <li><a asp-page="/contact">contact</a></li>
+            </ul>
+        </div>*@
+            <div>
+                <a class="topmenu" href="/Index">
+                    Home page
+                </a>
+                <a class="topmenu" href="/About"> About Me</a>
+                <a class="topmenu" href="/Contact"> Contact</a>
+                <a class="topmenu" href="/Comments"> Comments</a>
             </div>
         </div>
     </nav>
